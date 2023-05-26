@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = '/api/notes'
+const baseUrl = 'https://mynotesapi.fly.dev/api/notes'
 
 const getAll = () =>{
     const response = axios.get(baseUrl)
